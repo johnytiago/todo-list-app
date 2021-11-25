@@ -7,4 +7,4 @@ appVersion: "1.0"
 dependencies:
 - name: todo-list-app
   version: 0.1.1
-  repository: https://github.com/johnytiago/todo-list-app
+  repository: https://github.com/johnytiago/todo-list-chart
