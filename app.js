@@ -7,6 +7,13 @@ const express = require('express'),
     app = express(),
     port = 8080
 
+const {
+  SOURCE = "code",
+  NODE_ENV = "development"
+} = process.env
+
+const { version } = require('./package.json')
+
 app.use(bodyParser.urlencoded({
     extended: false
 }));
@@ -27,6 +34,9 @@ let todolist = [];
 app.get('/todo', function (req, res) {
         res.render('todo.ejs', {
             todolist,
+            version,
+            source: SOURCE,
+            env: NODE_ENV,
             clickHandler: "func1();"
         });
     })
