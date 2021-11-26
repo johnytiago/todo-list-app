@@ -6,5 +6,5 @@ version: 0.1.0
 appVersion: "1.0"
 dependencies:
 - name: todo-list
-  version: 0.1.2
+  version: 0.1.3
   repository: https://www.joaotiago.dev/todo-list-chart/
