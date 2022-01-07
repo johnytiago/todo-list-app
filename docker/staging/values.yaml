@@ -1,4 +1,4 @@
 todo-list:
   env: "staging"
-  source: "git"
+  source: "git v2"
   externalLink: https://www.youtube.com/watch?v=dQw4w9WgXcQ
